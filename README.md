@@ -3,8 +3,10 @@ This project contains information about me and my projects
 It shows the work I have taken part in as a developer and my contact information 
 
 # Built With
-HTML
-CSS
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+</ul>
 
 # Getting Started
 Create a new repository and clone it into your IDE
