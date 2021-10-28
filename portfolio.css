@@ -28,7 +28,7 @@ body {
     display: flex;
     align-items:center;
     font-family: 'Poppins',sans-serif;
-    weight:700px;
+    font-weight:700px;
     font-size: 40px;
     font-weight: bold;
     font-style:normal;
@@ -52,7 +52,6 @@ body {
     padding: 276px,24px,0,0;
     font-size: 16px;
     padding-left: 24px;
-    padding-top: ;
     color: rgb(52, 69, 99);
 }
 
