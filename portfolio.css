@@ -79,7 +79,7 @@ body {
 }
 
 ul {
-  padding-inline-start: 0px;
+  padding-inline-start: 0;
   display: inline-flex;
   align-items: baseline;
 }
