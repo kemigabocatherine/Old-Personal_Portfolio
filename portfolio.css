@@ -78,36 +78,42 @@ body {
   padding-top: 4px;
 }
 
-li {
-  text-decoration: none;
-  list-style-type: none;
+ul {
+  padding-inline-start: 0px;
+  display: inline-flex;
+  align-items: baseline;
 }
 
 .twitter {
   width: 19.99px;
   height: 19.96px;
+  color: rgb(80, 95, 121);
 }
 
 .linkedin {
   width: 20px;
   height: 20px;
-  padding-left: 15px;
+  padding-left: 20px;
+  color: rgb(80, 95, 121);
 }
 
 .email {
   width: 20px;
   height: 16px;
-  padding-left: 15px;
+  padding-left: 20px;
+  color: rgb(80, 95, 121);
 }
 
 .github {
   width: 17.99px;
   height: 20px;
-  padding-left: 15px;
+  padding-left: 20px;
+  color: rgb(80, 95, 121);
 }
 
 .vector {
   width: 14.17px;
   height: 20px;
-  padding-left: 15px;
+  padding-left: 20px;
+  color: rgb(80, 95, 121);
 }
