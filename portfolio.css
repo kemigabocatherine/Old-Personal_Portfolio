@@ -75,14 +75,13 @@ body {
 .contact {
   margin: 0;
   padding-left: 24px;
+  padding-top: 4px;
 }
 
 li {
   text-decoration: none;
   list-style-type: none;
 }
-
-
 
 .twitter {
   width: 19.99px;
@@ -92,20 +91,23 @@ li {
 .linkedin {
   width: 20px;
   height: 20px;
-  padding-left: 5px;
+  padding-left: 15px;
 }
 
 .email {
   width: 20px;
   height: 16px;
+  padding-left: 15px;
 }
 
 .github {
   width: 17.99px;
   height: 20px;
+  padding-left: 15px;
 }
 
 .vector {
   width: 14.17px;
   height: 20px;
+  padding-left: 15px;
 }
