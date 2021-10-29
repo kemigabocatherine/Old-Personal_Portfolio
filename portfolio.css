@@ -6,37 +6,43 @@ body {
 
 .toolbar {
   position: absolute;
-  display: flexbox;
   width: 375px;
   height: 48px;
   padding: 0, 0, 70px, 0;
+  padding-left: 11px;
+}
+
+.menu {
+  display: inline-flex;
+  box-align: left;
+  padding-left: 200px;
 }
 
 .headline {
   position: absolute;
-  display: flexbox;
+  display: flex;
+  flex-direction: column;
   width: 375px;
   height: 604px;
-  background-image: url("images/header-shapes\ mobile.png");
+  background-image: url("images/headlinebackground.png");
   background-repeat: no-repeat;
   background-position: cover;
   top: 92px;
-  padding-top: 114px, 24px;
+  padding: 114px, 24px, 114px, 24px;
 }
 
 .heading {
-  display: flex;
   align-items: center;
   font-family: 'Poppins', sans-serif;
-  font-size: 40px;
-  font-weight: 700px bold;
+  font-size: 36px;
+  font-weight:  700px, bold;
   font-style: normal;
   line-height: 52px;
   width: 327px;
   height: 150px;
   top: 114px;
   left: 24px;
-  padding-top: 98px;
+  padding-top: 60px;
   padding-left: 24px;
   color: rgb(23, 43, 77);
 }
@@ -50,6 +56,7 @@ body {
   padding: 276px, 24px, 0, 0;
   font-size: 16px;
   padding-left: 24px;
+  padding-top: 50px;
   color: rgb(52, 69, 99);
 }
 
@@ -59,12 +66,46 @@ body {
   font-weight: 500px;
   line-height: 24px;
   padding-left: 24px;
+  padding-top: 5px;
   color: rgb(127, 140, 255);
   width: 200px;
   height: 24px;
 }
 
-footer {
+.contact {
+  margin: 0;
   padding-left: 24px;
-  padding-top: 10px;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
+
+.twitter {
+  width: 19.99px;
+  height: 19.96px;
+}
+
+.linkedin {
+  width: 20px;
+  height: 20px;
+  padding-left: 5px;
+}
+
+.email {
+  width: 20px;
+  height: 16px;
+}
+
+.github {
+  width: 17.99px;
+  height: 20px;
+}
+
+.vector {
+  width: 14.17px;
+  height: 20px;
 }
