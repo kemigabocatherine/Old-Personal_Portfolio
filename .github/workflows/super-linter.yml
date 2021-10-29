@@ -10,7 +10,7 @@ on:
   push:
     branches: [ feature-header ]
   pull_request:
-    branches: [ main,feature-header ]
+    branches: [ feature-header ]
 jobs:
   run-lint:
     runs-on: ubuntu-latest
