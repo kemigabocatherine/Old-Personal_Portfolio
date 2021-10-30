@@ -410,10 +410,6 @@ hr {
   margin-right: 25px;
 }
 
-li {
-  list-style: color rgb(11, 11, 26);
-}
-
 button {
   transition-duration: 0.4s;
 }
