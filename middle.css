@@ -410,23 +410,14 @@ hr {
   margin-right: 25px;
 }
 
+li {
+  list-style: color rgb(11, 11, 26);
+}
+
 button {
   transition-duration: 0.4s;
 }
 
-/*button:disabled {
-  background-color: rgb(193, 199, 208);
-  color: rgb(94, 108, 132);
-}*/
-
-button:pressed {
-  background-color: rgb(34, 48, 210);
-  color:red;
-}
-
-
-
-}
 
 button:enabled {
   background-color: #7F8CFF;
@@ -436,11 +427,9 @@ button:enabled {
 button:hover {
   background-color: rgb(96, 112, 255);
   color: white;
-  font-size: x-large;
 }
 
 button:disabled {
   background-color: rgb(193, 199, 208);
   color: rgb(94, 108, 132);
-  font-size: x-large;
 }
