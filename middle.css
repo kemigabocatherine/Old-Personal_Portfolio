@@ -151,7 +151,7 @@
   padding-top: 20px;  
 }
 
-.html {
+.lmt {
 width: 53px;
 height: 24px;
 display: flex;
@@ -162,7 +162,7 @@ padding: 4px 12px;
 border: 0; 
 }
 
-.css {
+.ssc {
   width: 45px;
   height: 24px;
   display: flex;
@@ -174,7 +174,7 @@ border: 0;
   margin-left: 10px;
 }
 
-.js {
+.sj {
   width: 89px;
   height: 24px;
   display: flex;
@@ -410,4 +410,37 @@ hr {
   margin-right: 25px;
 }
 
+button {
+  transition-duration: 0.4s;
+}
 
+/*button:disabled {
+  background-color: rgb(193, 199, 208);
+  color: rgb(94, 108, 132);
+}*/
+
+button:pressed {
+  background-color: rgb(34, 48, 210);
+  color:red;
+}
+
+
+
+}
+
+button:enabled {
+  background-color: #7F8CFF;
+  color: rgb(96, 112, 255);
+
+}
+button:hover {
+  background-color: rgb(96, 112, 255);
+  color: white;
+  font-size: x-large;
+}
+
+button:disabled {
+  background-color: rgb(193, 199, 208);
+  color: rgb(94, 108, 132);
+  font-size: x-large;
+}
