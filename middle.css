@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-color: rgb(229, 229, 229);
+  width: 375px;
+  height: 4031px;
+  padding-top: 20px;
+  padding-left: 7px;
+  display: grid;
+  grid-row-gap: 20px;
+}
+
+.project1, .project2, .project3, .project4, .aboutself {
+  display: flex;
+  flex-direction: column;
+} 
+
+.project1, .project3 {
+  width: 327px;
+  height: 552px;
+  padding-left: 24px;
+  padding-top: 114px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  border: 1px solid rgb(223, 225, 230);
+  border-radius: 16px;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+
+}
+
+.project2, .project4 {
+    width: 327px;
+    height: 596px;
+    padding-left: 24px;
+    padding-top: 114px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    border: 1px solid rgb(223, 225, 230);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
