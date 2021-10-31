@@ -5,10 +5,10 @@
 
 .main {
   background-color: rgb(229, 229, 229);
-  width: 375px;
-  height: 4031px;
+  width: 376px;
+  height: 5051px;
   padding-top: 20px;
-  padding-left: 7px;
+  padding-left: 0px;
   display: grid;
 }
 
@@ -20,28 +20,32 @@
 .project1, .project3 {
   width: 327px;
   height: 552px;
-  padding-left: 24px;
-  padding-top: 40px;
-  padding-right: 16px;
+  padding-left: 8px;
+  padding-top: 30px;
+  padding-right: 8px;
   padding-bottom: 16px;
   border: 1px solid rgb(223, 225, 230);
   border-radius: 16px;
   background-color: rgb(255, 255, 255);
   align-items: center;
+  margin-left: 16px;
+  margin-right: 16px;
 
 }
 
 .project2, .project4 {
     width: 327px;
     height: 596px;
-    padding-left: 24px;
-    padding-top: 40px;
-    padding-right: 16px;
+    padding-left: 8px;
+    padding-top: 30px;
+    padding-right: 8px;
     padding-bottom: 16px;
     border: 1px solid rgb(223, 225, 230);
     border-radius: 16px;
     background-color: rgb(255, 255, 255);
     align-items: center;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 .snap {
@@ -66,7 +70,7 @@
   font-style: normal;
 }
 
-.heading {
+.heading2 {
   width: 295px;
   height: 36px;
   font-family: 'Poppins', sans-serif;
@@ -409,4 +413,136 @@ a {
 hr {
   margin-left: 16px;
   margin-right: 25px;
+}
+
+body {
+  display: flex;
+  width: 376px;
+  height: 718px;
+}
+
+.toolbar {
+  position: absolute;
+  width: 375px;
+  height: 48px;
+  padding: 0, 0, 70px, 0;
+  padding-left: 11px;
+}
+
+.menu {
+  display: inline-flex;
+  text-align: left;
+  padding-left: 200px;
+}
+
+.header {
+  width: 374px;
+  height: 650px;
+  padding-top: 0px;
+  padding-bottom: 16px;
+  border: 1px solid rgb(223, 225, 230);
+  border-bottom-left-radius: 25px;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  padding-left: -2rem;
+}
+
+.headline {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 376px;
+  height: 604px;
+  background-image: url("images/headlinebackground.png");
+  background-repeat: no-repeat;
+  background-position: cover;
+  top: 92px;
+  padding: 114px, 24px, 114px, 24px;
+}
+
+.heading {
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: 700px, bold;
+  font-style: normal;
+  line-height: 52px;
+  width: 327px;
+  height: 150px;
+  top: 114px;
+  left: 24px;
+  padding-top: 90px;
+  padding-left: 24px;
+  color: rgb(23, 43, 77);
+}
+
+.paragraph {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400px;
+  line-height: 24px;
+  width: 327px;
+  height: 146px;
+  padding: 276px, 24px, 0, 0;
+  font-size: 16px;
+  padding-left: 24px;
+  padding-top: 30px;
+  color: rgb(52, 69, 99);
+}
+
+.connect {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 24px;
+  padding-left: 24px;
+  padding-top: 5px;
+  color: rgb(127, 140, 255);
+  width: 200px;
+  height: 24px;
+}
+
+.contact {
+  margin: 0;
+  padding-left: 24px;
+  padding-top: 4px;
+}
+
+ul {
+  padding-inline-start: 0;
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.twitter1 {
+  width: 19.99px;
+  height: 19.96px;
+  color: rgb(80, 95, 121);
+}
+
+.linkedin1 {
+  width: 20px;
+  height: 20px;
+  padding-left: 20px;
+  color: rgb(80, 95, 121);
+}
+
+.email1 {
+  width: 20px;
+  height: 16px;
+  padding-left: 20px;
+  color: rgb(80, 95, 121);
+}
+
+.github1 {
+  width: 17.99px;
+  height: 20px;
+  padding-left: 20px;
+  color: rgb(80, 95, 121);
+}
+
+.vector1 {
+  width: 14.17px;
+  height: 20px;
+  padding-left: 20px;
+  color: rgb(80, 95, 121);
 }
