@@ -218,6 +218,7 @@ a {
 .aboutself {
   display: flex;
   background-color: white;
+  border-top-right-radius: 25px;
 }
 
 .about {
@@ -408,24 +409,4 @@ a {
 hr {
   margin-left: 16px;
   margin-right: 25px;
-}
-
-button {
-  transition-duration: 0.4s;
-}
-
-
-button:enabled {
-  background-color: #7F8CFF;
-  color: rgb(96, 112, 255);
-
-}
-button:hover {
-  background-color: rgb(96, 112, 255);
-  color: white;
-}
-
-button:disabled {
-  background-color: rgb(193, 199, 208);
-  color: rgb(94, 108, 132);
 }
