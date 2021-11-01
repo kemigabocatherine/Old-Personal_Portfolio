@@ -12,7 +12,11 @@
   display: grid;
 }
 
-.project1, .project2, .project3, .project4, .aboutself {
+.project1,
+.project2, 
+.project3, 
+.project4, 
+.aboutself {
   display: flex;
   flex-direction: column;
 } 
@@ -30,22 +34,21 @@
   align-items: center;
   margin-left: 16px;
   margin-right: 16px;
-
 }
 
 .project2, .project4 {
-    width: 327px;
-    height: 596px;
-    padding-left: 8px;
-    padding-top: 30px;
-    padding-right: 8px;
-    padding-bottom: 16px;
-    border: 1px solid rgb(223, 225, 230);
-    border-radius: 16px;
-    background-color: rgb(255, 255, 255);
-    align-items: center;
-    margin-left: 16px;
-    margin-right: 16px;
+  width: 327px;
+  height: 596px;
+  padding-left: 8px;
+  padding-top: 30px;
+  padding-right: 8px;
+  padding-bottom: 16px;
+  border: 1px solid rgb(223, 225, 230);
+  border-radius: 16px;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .snap {
@@ -61,8 +64,8 @@
 .heading1 {
   width: 295px;
   height: 80px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700px, bold;
+  font-family: 'Poppins', sans-serif;  
+  font-weight: 700px;
   font-size: 25px;
   line-height: 44px; 
   color: rgb(23, 43, 77);
@@ -76,11 +79,12 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 700px, bold;
   font-size: 25px;
-  line-height: 44px; 
+  line-height: 44px;
   color: rgb(23, 43, 77);
   margin: 12px 0;   
   font-style: normal; 
 }
+
 
 .list {
   display: flex;
