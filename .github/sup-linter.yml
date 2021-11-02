@@ -8,7 +8,7 @@ name: Lint Code Base
 
 on:
   push:
-    branches: [ feature-middle ]
+    branches: [ faeture-middle ]
   pull_request:
     branches: [ feature-middle ]
 jobs:
